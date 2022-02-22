@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.container {
+    background-color: hsl(225, 100%, 94%);
+    background-image: url('../images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 400px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+    width: 400px;
+    background-color: #FFF;
+    padding-bottom: 40px;
+    border-radius: 15px;
+}
+.content_plan {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    width: 300px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+}
+.content_plan-info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+    margin-left: 20px;
+}
+.content_plan-info p {
+    margin-top: 5px;
+}
+.content_plan h2 {
+    font-size: 14px;
+    margin-bottom: 0;
+    color: hsl(223, 47%, 23%);
+}
+.content_plan a {
+    font-size: 12px;
+    font-weight: 700;
+
+}
+.content_plan p {
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+}
+.content_plan img{
+    max-width: 100%;
+    width: 40px;
+    margin-left: 20px;
+}
+.content h1{
+    font-size: 24px;
+    color: hsl(223, 47%, 23%);
+    margin-top: 50px;
+}
+
+.content_text {
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    margin: 0 50px 20px 50px;
+}
+
+button {
+    margin: 20px;
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    box-shadow: 0 15px 10px hsl(225, 100%, 94%);
+    cursor: pointer;
+    
+    color: white;
+    font-weight: 700;
+    background-color: hsl(245, 75%, 52%);
+}
+
+.content_link-cancel {
+    font-weight: 900;
+    font-size: 12px;
+    text-decoration: none;
+    color:hsl(223, 47%, 23%);
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
